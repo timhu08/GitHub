@@ -1,0 +1,27 @@
+## windows
+-----------------------------------
+## add user
+	$ git config --global user.name "user.name"
+	$ git config --global user.email "user.email"
+## Build a database
+	add one new file	->	$ mkdir "file.name"
+	go to file		->	$ cd "file.name"
+	$ git init
+## check status
+	$ git status
+## add file
+	$ git add "file.name"		(one file)
+	$ git add .			(all file)
+## delect file which is hava do add
+	$ git reset HEAD "file.name"
+## check status
+	$ git status	->	can see this : " new file : "add file.name"
+## commit file
+	$ git commit -m "commit massage"
+## check history
+	$ git log	-> can see : "commit ID","author","Date"
+## make a Remote database
+	$ git remote add "database.name" "database.url"
+## push file
+	$ git push -u "git hub file name" master
+## check your github
